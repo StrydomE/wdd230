@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0 auto;
+    padding: 0.5rem;
+    background-color: rgb(2, 128, 144);
+    border: 2px solid rgb(0, 0, 0);
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+nav {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    padding: 15px 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: rgb(2, 109, 126);
+    width: 100%;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+main {
+    font-family: 'Padauk', sans-serif;
+    align-content: center;
+    margin: 1rem;
+}
+
+h2 {
+    padding: 0.3rem;
+    text-decoration: underline;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+p {
+    padding: 0.5rem;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    margin: 1rem;
+}
+
+footer {
+    margin: 0 auto;
+    padding: 0.5rem;
+    background-color: rgb(2, 128, 144);
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Padauk', sans-serif;
+}
+
+.page {
+    max-width: 900px;
+    height: auto;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.colors img {
+    width: 100%;
+}
